@@ -1,5 +1,5 @@
 Reference:
-1. get random color 
+1. get random color   
 https://stackoverflow.com/questions/14949011/random-color-from-array
 
 2.how to use flask
