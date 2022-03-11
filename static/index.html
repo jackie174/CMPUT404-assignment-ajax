@@ -167,8 +167,7 @@ function addEntity(entity, data) {
     url= "http://"+host +"/entity/" + entity;
     xhr.open("POST", url);
     xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
-    xhr.send(JSON.stringify(data))
-    //sendJSONXMLHTTPRequest("/entity/"+entity, data);
+    xhr.send(JSON.stringify(data));
 }
 
 var counter = 0;
